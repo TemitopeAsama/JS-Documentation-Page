@@ -1,0 +1,86 @@
+@font-face {
+    font-family: Montserrat, sans-serif;
+    src: url(../SCA-Task/Montserrat/Montserrat-Regular.ttf);
+}
+
+@font-face {
+    font-family: Lora, serif;
+    src: url(../SCA-Task/Lora/static/Lora-Medium.ttf)
+}
+    
+
+nav {
+    display: block;
+    height: 100%;
+    width: 350px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #ffffff;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.nav-link {
+    border-bottom: 1px solid black;
+}
+.nav-link a {
+    text-decoration: none;
+    font-family: Montserrat;
+    font-size: 1.0em;
+    line-height: 3.0em;
+    color: #002333;
+    padding: 30px;
+}
+
+nav a:hover {
+    color: #3722d3;
+}
+
+.nav-head {
+    font-family: Lora;
+    padding: 30px;
+    font-size: 22pt;
+    font-weight: bold;
+    color: #00ff84;
+    background-color:  #002333;
+}
+main {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: #ffffff;
+    z-index: 1;
+    margin-left: 400px;
+}
+.content {
+    font-family: Montserrat;
+    font-size: 11pt;
+    line-height: 2.0em;
+}
+blockquote {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 0.8em;
+}
+.heading {
+    font-family: Lora;
+    font-size: 14pt;
+    color:  #002333;
+}
+
+div > h1 {
+    border-bottom: 10px #3722d3;
+}
+
+.grand-child {
+   padding-left: 60px;
+}
+
+.mdn {
+ text-decoration: none;
+ color: #3722d3;
+}
+.mdn:hover {
+    color: #00ff84;
+}

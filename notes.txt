@@ -1,0 +1,67 @@
+1. Sidebar
+    - Text
+    - Color: #00ff84
+    - Font: Montserrat/Lora
+
+2. Colors
+    - #00ff84 (Light Green), rgb(9,240,129)
+    - #002333 (Dark Blue)
+    - background color - #ffffff
+
+3. Title: FCC: Technical Documentation 
+
+4. "JS Documentation"- Light Green on Dark Blue background with Icon
+
+5. Sidebar menu- Dark Blue on White background (With or without Icons, dk yet)
+
+6. Heading font- Lota/Montserrat; Heading with Light Green border bottom, 20px; Width: idk yet
+
+7. Body font- Lora
+
+8. On hover, I want my bookmarks to assume a blue color ; #3722d3
+
+
+
+MEDIA QUERY COMMENT
+
+media only screen and (max-width: 815px) {
+
+#nav {
+  
+    background-color: #ffffff;
+    position: fixed;
+    top: 0;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    max-height : 275px;
+    border: none;
+    z-index: 1;
+    border-bottom: 2px solid;
+    overflow-x:hidden;
+}
+
+main {
+    margin-left: -10px;
+    margin-top: 275px;
+    float: right;
+    overflow-x: hidden;
+}
+.nav-link a {
+    text-decoration: none;
+    font-family: Montserrat;
+    font-size: 0.6em;
+    line-height: 1.0em;
+    color: #002333;
+    padding: 5px;
+}
+
+.nav-link {
+    border-bottom: 1px solid black;
+    height: auto;
+    width: auto;
+}
+
+
+}
+
